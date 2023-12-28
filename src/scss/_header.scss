@@ -1,0 +1,106 @@
+@import "./cdn";
+@import "./main";
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+header {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+
+
+}
+
+.header-container {
+    max-width: 1170px;
+    margin: auto;
+    // background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.logo-gray {
+    color: $gray;
+    font-size: 25px;
+}
+
+.logo-white {
+    color: $white;
+    font-size: 25px;
+}
+
+.menu-wrapper {
+    display: flex;
+    padding: 26px 0;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list__item a {
+    padding: 0 30px;
+    color: $white;
+    text-transform: uppercase;
+
+
+
+
+    &:hover {
+        // border: 1px solid $white;
+        text-decoration: underline;
+      }
+}
+
+.line {
+    border: 1px solid #BABBC5;
+    width: 1170px;
+    margin: 0px 0 130px;
+}
+
+.title {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 34px;
+    font-family: Raleway;
+    font-weight: 300;
+
+
+}
+
+.description {
+    color: $white;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.button-wrapper__item {
+    color: $white;
+    background-color: $red;
+    padding: 15px 70px;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $red-hover;
+    }
+}
