@@ -1,0 +1,25 @@
+.footer-container {
+    // padding: 114px 0;
+    // max-width: 1170px;
+    margin: auto;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(53, 60, 101, 1);
+    color: $white;
+    padding: 70px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    background-color: rgba(44, 49, 84, 1);
+    padding: 24px 0;
+    color: rgba(128, 128, 128, 1);
+}
+
+.footer-copyright__name {
+    color: $white;
+}
+
