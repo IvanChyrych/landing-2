@@ -1,0 +1,19 @@
+@import "./cdn";
+@import "./main";
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+.portfolio-container{
+    padding: 120px 0;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.portfolio-items{
+    display: flex
+}
+
+// .portfolio-item-1{
+//     background-image: url(../img/photos/1.jpg);
+// }
