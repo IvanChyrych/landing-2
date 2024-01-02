@@ -1,18 +1,16 @@
 .swiper {
-    width: 1511px;
-    height: 490px;
+    max-width: 1511px;
+    // height: 490px;
 }
 
 .swiper-slide__container {
     display: flex;
 }
 
-
-
-
-//   tr:nth-child(2n) {
-//     background: #f0f0f0; /* Цвет фона */
-//    } 
+.swiper-slide__photo{
+    background-image: url(../img/slider-img/slider-img-1.png);
+    background-repeat: no-repeat;
+}
 
 
 .swiper-slide:nth-child(odd) {
@@ -21,4 +19,12 @@
 
 .swiper-slide:nth-child(even) {
     background-color: blueviolet;
+}
+
+.swiper-slide__discription{
+    padding: 170px;
+}
+
+.swiper-slide__photo{
+    padding: 170px;
 }

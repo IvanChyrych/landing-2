@@ -4,6 +4,12 @@
     margin: auto;
 }
 
-.staff-cards{
+.staff-cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.staff-cards__item {
+    max-width: 227px;
 }
