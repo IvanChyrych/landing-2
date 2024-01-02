@@ -4,16 +4,59 @@
 @import "./variables";
 @import "./fonts";
 
-.portfolio-container{
+.portfolio-container {
     padding: 120px 0;
     max-width: 1170px;
     margin: auto;
 }
 
-.portfolio-items{
+.portfolio-items {
     display: flex
 }
 
-// .portfolio-item-1{
-//     background-image: url(../img/photos/1.jpg);
-// }
+.portfolio-item-1 img {
+    width: 256px;
+    
+
+}
+
+.portfolio-item-1 {
+    position: relative;
+
+}
+
+
+.portfolio-item-1::before {
+    
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    
+}
+
+
+.portfolio-item-1-mask{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    
+    opacity: 0;
+}
+
+.portfolio-item-1:hover .portfolio-item-1-mask{
+    opacity: 0.85;
+}
+
+
+
+.portfolio-items {
+    flex-wrap: wrap;
+    justify-content: center;
+}
