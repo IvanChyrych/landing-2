@@ -1,59 +1,65 @@
-.swiper {
-    max-width: 1511px;
-    // height: 490px;
-}
+// .swiper {
+//     max-width: 1511px;
+//     // height: 490px;
+// }
 
-.swiper-slide__container {
-    display: flex;
-}
+// .swiper-slide__container {
+//     display: flex;
+// }
 
-.swiper-slide__photo-1{
-    background-image: url(../img/slider-img/slider-img-1.png);
-    background-repeat: no-repeat;
-}
+// .swiper-slide__photo-1{
+//     background-image: url(../img/slider-img/slider-img-1.png);
+//     background-repeat: no-repeat;
+// }
 
-.swiper-slide__photo-2{
-    background-image: url(../img/slider-img/slider-img-2.jpg);
-    background-repeat: no-repeat;
-}
+// .swiper-slide__photo-2{
+//     background-image: url(../img/slider-img/slider-img-2.jpg);
+//     background-repeat: no-repeat;
+// }
 
-.swiper-slide__photo-3{
-    background-image: url(../img/slider-img/slider-img-3.jpg);
-    background-repeat: no-repeat;
-}
+// .swiper-slide__photo-3{
+//     background-image: url(../img/slider-img/slider-img-3.jpg);
+//     background-repeat: no-repeat;
+// }
 
-.swiper-slide__photo-4{
-    background-image: url(../img/slider-img/slider-img-4.jpg);
-    background-repeat: no-repeat;
-}
+// .swiper-slide__photo-4{
+//     background-image: url(../img/slider-img/slider-img-4.jpg);
+//     background-repeat: no-repeat;
+// }
 
-.swiper-slide__photo-5{
-    background-image: url(../img/slider-img/slider-img-5.jpg);
-    background-repeat: no-repeat;
-}
+// .swiper-slide__photo-5{
+//     background-image: url(../img/slider-img/slider-img-5.jpg);
+//     background-repeat: no-repeat;
+// }
 
 
-.swiper-slide:nth-child(odd) {
-    background-color: aqua;
-}
+// .swiper-slide:nth-child(odd) {
+//     background-color: aqua;
+// }
 
-.swiper-slide:nth-child(even) {
-    background-color: blueviolet;
-}
+// .swiper-slide:nth-child(even) {
+//     background-color: blueviolet;
+// }
 
-.swiper-slide__discription{
-    padding: 170px;
-}
+// .swiper-slide__discription{
+//     padding: 170px;
+// }
 
-.swiper-slide__photo{
-    padding: 170px;
-}
+// .swiper-slide__photo{
+//     padding: 170px;
+// }
 
-.swiper-wrapper{
-    padding: 35px;
+// .swiper-wrapper{
+//     padding: 35px;
     
-}
+// }
 
-.swiper-slide{
-    margin: 0 50px;
-}
+// .swiper-slide{
+//     margin: 0 50px;
+// }
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

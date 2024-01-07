@@ -1,4 +1,11 @@
-const swiper = new Swiper('.swiper', {
+  let menuBtn = document.querySelector('.menu-burger');
+  let menu = document.querySelector('.menu-list');
+  menuBtn.addEventListener('click', function(){
+    menu.classList.toggle('active');
+  })
+
+
+  const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -19,11 +26,3 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
-
-
-
-  let menuBtn = document.querySelector('.menu-burger');
-  let menu = document.querySelector('.menu-list');
-  menuBtn.addEventListener('click', function(){
-    menu.classList.toggle('active');
-  })

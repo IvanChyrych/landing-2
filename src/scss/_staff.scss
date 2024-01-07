@@ -12,6 +12,8 @@
 
 .staff-cards__item {
     max-width: 227px;
+    // padding: 10px 100px;
+    margin: 5px 20px;
 }
 
 .staff-cards__item-discription-name {
@@ -53,10 +55,11 @@
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 531px){
     .staff-cards {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     
   }
