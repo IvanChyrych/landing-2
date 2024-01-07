@@ -1,0 +1,125 @@
+@import "./cdn";
+@import "./main";
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+.portfolio-container {
+  padding: 120px 0;
+  max-width: 1510px;
+  margin: auto;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio-item {
+  // width: 100%;
+  max-width: 375px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid whitesmoke;
+}
+
+.portfolio__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  height: 100%;
+  background: rgba(255, 67, 67, 0.8);
+
+  transform: translateY(100%);
+  transition: all .27s ease-in-out;
+  padding: 100px 50px;
+
+
+
+
+}
+
+.portfolio__mask:before {
+  content: '';
+  display: inline-portfolio;
+  vertical-align: middle;
+  width: 1px;
+  height: 100%;
+  padding-top: 150px;
+}
+
+.portfolio__mask p {
+  display: inline-portfolio;
+  vertical-align: middle;
+  width: 85%;
+  font-family: Tahoma, serif;
+  text-align: center;
+
+  color: #fff;
+
+  transition: all .27s .27s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio__mask {
+  opacity: .85;
+  transform: translateY(0%);
+}
+
+
+
+.portfolio-item:hover .portfolio__inner img {
+
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+
+.portfolio-item:active .portfolio__mask {
+  background: rgba(185, 12, 12, 0.8)
+}
+
+.portfolio__mask-title {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  
+}
+
+.portfolio__mask-title p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.portfolio-wrapper-1{
+  display: flex;
+}
+
+.portfolio-wrapper-2{
+  display: flex;
+}
+
+
+@media (max-width: 1024px){
+  .portfolio-container{
+    flex-direction: row;
+  }
+  .portfolio-wrapper-1{
+    flex-direction: column;
+  }
+  .portfolio-wrapper-2{
+    flex-direction: column;
+  }
+}

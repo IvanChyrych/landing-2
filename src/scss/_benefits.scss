@@ -4,40 +4,50 @@
 @import "./variables";
 @import "./fonts";
 
-.benefits-container__items{
+.benefits-container__items {
     display: grid;
-    
+
 
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
     grid-column-gap: 30px;
     grid-row-gap: 80px;
 }
 
-.benefits-container{
+.benefits-container {
     padding: 120px 0;
     max-width: 1170px;
     margin: auto;
 }
 
-.benefits-container__item{
+.benefits-container__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.benefits-container__item-img{
+.benefits-container__item-img {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.benefits-container__item_title{
+.benefits-container__item_title {
     text-align: center;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
 
-.benefits-container__item-discription{
+.benefits-container__item-discription {
     text-align: center;
+    color: rgba(108, 114, 121, 1);
+    
 }
+
+
+@media (max-width: 1024px){
+    .benefits-container__items{
+        display: flex;
+        flex-direction: column;
+    }
+  }

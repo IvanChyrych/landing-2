@@ -1,0 +1,40 @@
+.download-container{
+    padding: 114px 0;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.download-container{
+    text-align: center;
+}
+
+.download-title{
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.download-disciption{
+    margin-bottom: 47px;
+    text-transform: uppercase;
+}
+
+.download-button__item{
+    
+
+    color: $white;
+    background-color: $red;
+    padding: 15px 70px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $red-hover;
+    }
+    &:active {
+        box-shadow: 4px 4px 30px 0px #FF4343;
+
+    }
+    }
+
+
+
+

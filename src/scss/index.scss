@@ -1,10 +1,15 @@
 @import "./cdn";
-@import "./header";
-@import "./benefits";
 @import "./main";
 @import "./mixins";
 @import "./variables";
 @import "./fonts";
+@import "./header";
+@import "./benefits";
+@import "./portfolio";
+@import "./slider";
+@import "./download";
+@import "./footer";
+@import "./staff";
 
 
 * {
@@ -16,8 +21,8 @@
 }
 
 html {
-  
+
   font-family: 'Cardo', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
-
