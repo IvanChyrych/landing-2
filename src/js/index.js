@@ -19,3 +19,11 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+
+
+  let menuBtn = document.querySelector('.menu-burger');
+  let menu = document.querySelector('.menu-list');
+  menuBtn.addEventListener('click', function(){
+    menu.classList.toggle('active');
+  })
