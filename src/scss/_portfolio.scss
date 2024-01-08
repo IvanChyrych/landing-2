@@ -5,7 +5,7 @@
 @import "./fonts";
 
 .portfolio-container {
-  padding: 120px 0;
+  padding-bottom: 120px;
   max-width: 1510px;
   margin: auto;
   display: flex;
@@ -32,13 +32,9 @@
   opacity: 0;
   height: 100%;
   background: rgba(255, 67, 67, 0.8);
-
   transform: translateY(100%);
   transition: all .27s ease-in-out;
   padding: 100px 50px;
-
-
-
 
 }
 
@@ -111,6 +107,11 @@
   display: flex;
 }
 
+.portfolio__inner img{
+  display: block;
+  max-width: 100%;
+}
+
 
 @media (max-width: 1024px){
   .portfolio-container{
@@ -123,3 +124,4 @@
     flex-direction: column;
   }
 }
+
